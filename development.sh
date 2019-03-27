@@ -11,7 +11,7 @@ brew install git
 # add-gitignore - https://github.com/TejasQ/add-gitignore
 # An interactive CLI tool that adds a .gitignore to your projects.
 ################################################################################
-npx add-gitignore
+#npx add-gitignore
 
 ################################################################################
 # Java - http://www.oracle.com/
@@ -80,13 +80,13 @@ npm install -g ionic cordova
 # Cordova - https://cordova.apache.org
 # Mobile apps with HTML, CSS & JS. Target multiple platforms with one code base.
 ################################################################################
-npx cordova
+npm install -g cordova
 
 ################################################################################
 # ionic - https://ionicframework.com
 # Ionic helps developers build and ship beautiful cross-platform hybrid apps.
 ################################################################################
-npx ionic
+npm install -g ionic
 
 ################################################################################
 # Brew Cleanup

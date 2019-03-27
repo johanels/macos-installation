@@ -14,20 +14,10 @@ brew cask install docker # https://www.docker.com
 ################################################################################
 npx dockly
 
+brew install kubernetes-cli
+brew install aws-iam-authenticator
 
-brew cask install google-cloud-sdk # https://cloud.google.com/sdk/
-
-#brew cask install virtualbox # https://www.virtualbox.org
+brew install azure-cli
 
 
-# Cordova - https://cordova.apache.org
-# Mobile apps with HTML, CSS & JS. Target multiple platforms with one code base. Free and open source
-npx cordova
-
-# ionic - https://ionicframework.com
-# Ionic helps developers build and ship beautiful cross-platform hybrid apps.
-npx ionic
-
-# add-gitignore - https://github.com/TejasQ/add-gitignore
-# An interactive CLI tool that adds a .gitignore to your projects. 
-npx add-gitignore
+brew install terraform
