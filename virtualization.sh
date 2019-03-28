@@ -12,12 +12,13 @@ brew cask install docker # https://www.docker.com
 # dockly - https://github.com/lirantal/dockly
 # Immersive terminal interface for managing docker containers and services
 ################################################################################
-npx dockly
+npm install -g dockly
+
 
 brew install kubernetes-cli
+
 brew install aws-iam-authenticator
 
 brew install azure-cli
-
 
 brew install terraform
