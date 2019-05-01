@@ -85,6 +85,14 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 ################################################################################
+# Nerd Fonts - https://github.com/ryanoasis/nerd-fonts
+# Iconic font aggregator, collection, and patcher
+################################################################################
+brew tap caskroom/fonts
+brew cask install font-hack-nerd-font
+brew install fontforge
+
+################################################################################
 # Files Tools
 ################################################################################
 # midnight-commander - https://midnight-commander.org
